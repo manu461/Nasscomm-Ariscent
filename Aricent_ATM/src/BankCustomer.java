@@ -18,7 +18,7 @@ public class BankCustomer {
 
 
     public void selectTransaction(String option){
-//        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);//
 //        double amount;
         switch (option){
             case "C":

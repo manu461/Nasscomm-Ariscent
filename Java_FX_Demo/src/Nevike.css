@@ -1,0 +1,20 @@
+.root {
+    -fx-background-color: #32302F;
+
+}
+.button {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #db2d20;
+}
+.label{
+    -fx-text-fill: #01a252;
+    -fx-font-weight: bolder;
+}
+.combo-box{
+    -fx-background-color: #01a0e4;
+    -fx-text-fill: #000000;
+}
+#bold{
+
+}
+

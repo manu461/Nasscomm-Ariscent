@@ -18,9 +18,7 @@ import java.io.FileNotFoundException;
  * Created by staLker on 30-06-2017.
  */
 public class ManagerLoginScene {
-    private static Button loginButton;
-    private static TextField inputUsername;
-    private static PasswordField inputPassword;
+
     public static Scene getScene() {
 
         //setUserAgentStylesheet(STYLESHEET_MODENA);
@@ -42,13 +40,13 @@ public class ManagerLoginScene {
 
         Label passwordLabel = new Label("Password :");
 
-        inputUsername = new TextField();
+        TextField inputUsername = new TextField();
         inputUsername.setPromptText("Enter your username");
 
-        inputPassword = new PasswordField();
+        PasswordField inputPassword = new PasswordField();
         inputPassword.setPromptText("Enter your password");
 
-        loginButton = new Button("Login!");
+        Button loginButton = new Button("Login!");
 
 //        ComboBox<String> themeChoice = new ComboBox<>();
 //        themeChoice.getItems().addAll(NEVIKE_THEME,RESSBER_THEME);
@@ -103,15 +101,5 @@ public class ManagerLoginScene {
 
     }
 
-    public static Button getLoginButton() {
-        return loginButton;
-    }
 
-    public static TextField getInputUsername() {
-        return inputUsername;
-    }
-
-    public static PasswordField getInputPassword() {
-        return inputPassword;
-    }
 }

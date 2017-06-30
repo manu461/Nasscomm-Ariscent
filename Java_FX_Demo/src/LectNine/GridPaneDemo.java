@@ -4,12 +4,15 @@ package LectNine;/**
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.FileInputStream;
@@ -44,6 +47,11 @@ public class GridPaneDemo extends Application {
         gridPane.setVgap(10);
         gridPane.setPadding(new Insets(20,20,20,20));
 
+        HBox hBoxForLogo = new HBox(10);
+        HBox hBoxForLogin = new HBox(10);
+
+        VBox vBoxRoot = new VBox(10);
+
 
 
         userNameLabel = new Label("Username :");
@@ -72,7 +80,7 @@ public class GridPaneDemo extends Application {
 
         imageView = new ImageView(logoImage);
         imageView.setFitHeight(200);
-        imageView.setFitWidth(200);
+        imageView.setFitWidth(400);
 
 
         GridPane.setConstraints(userNameLabel,0,1);
@@ -81,12 +89,17 @@ public class GridPaneDemo extends Application {
         GridPane.setConstraints(inputPassword,1,2);
         GridPane.setConstraints(loginButton,1,3);
         GridPane.setConstraints(themeChoice,1,7);
-        GridPane.setConstraints(imageView,1,0);
+        //GridPane.setConstraints(imageView,1,0);
 
 
-        gridPane.getChildren().addAll(userNameLabel,inputUsername,passwordLabel,inputPassword,loginButton,themeChoice,imageView);
-
-        scene = new Scene(gridPane,600,600);
+        hBoxForLogo.getChildren().add(imageView);
+        hBoxForLogo.setPadding(new Insets(10,10,10,100));
+        hBoxForLogin.setPadding(new Insets(10,10,10,120));
+        gridPane.getChildren().addAll(userNameLabel,inputUsername,passwordLabel,inputPassword,loginButton,themeChoice);
+        hBoxForLogin.getChildren().add(gridPane);
+        vBoxRoot.getChildren().addAll(hBoxForLogo,hBoxForLogin);
+        vBoxRoot.setAlignment(Pos.CENTER);
+        scene = new Scene(vBoxRoot,600,600);
         scene.getStylesheets().add("Ressber.css");
 
         themeChoice.setOnAction(e -> {
@@ -107,7 +120,7 @@ public class GridPaneDemo extends Application {
         window.setTitle("Login Screen");
         window.setScene(scene);
 
-        //window.setOpacity(0.93);
+        window.setOpacity(0.93);
         window.show();
 
     }

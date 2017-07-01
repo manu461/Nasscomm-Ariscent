@@ -10,8 +10,10 @@ import javafx.stage.Stage;
 public class PopUpStage {
     public static void show(String title, Scene scene){
         Stage window = new Stage();
+        scene.getStylesheets().add("Themes/Nevike.css");
         window.setTitle(title);
         window.setScene(scene);
+        window.setResizable(false);
         window.initModality(Modality.APPLICATION_MODAL);
         window.showAndWait();
     }

@@ -12,7 +12,7 @@ public class OnUserSignUpScene {
     public static Scene getScene(){
 
         HBox hBox = new HBox();
-        Label label = new Label("Register");
+        Label label = new Label("Registration form coming soon...");
         hBox.getChildren().add(label);
         hBox.setAlignment(Pos.CENTER);
 

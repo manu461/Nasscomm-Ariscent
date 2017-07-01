@@ -10,6 +10,7 @@ import javafx.scene.control.TabPane;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
@@ -52,6 +53,7 @@ public class OnUserLogInScene {
         personalityTab.setContent(ta);
         aboutTab.setContent(AboutScene.getScene().getRoot());
         helpTab.setContent(HelpScene.getScene().getRoot());
+
 
 
         logOutButton.setOnAction(e -> {UserLoginScene.passControl(window);});

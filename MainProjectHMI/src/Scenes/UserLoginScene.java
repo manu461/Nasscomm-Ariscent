@@ -8,12 +8,20 @@ import Stages.PopUpStage;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
+import javafx.scene.control.MenuItem;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+
+import java.awt.*;
 
 /**
  * Created by staLker on 30-06-2017.
@@ -39,11 +47,11 @@ public class UserLoginScene {
         signUpButton.getStyleClass().add("button-blue");
         inputPassword.setPromptText("Enter your password");
         inputUsername.setPromptText("Enter your username");
-        ImageView logoImageView = new ImageView(new Image("/ImageSlider/logo.png"));
+        ImageView logoImageView = new ImageView(new Image("/ImageResource/logo.png"));
         logoImageView.setFitHeight(120);
         logoImageView.setFitWidth(215);
 
-        ImageView optionIcon = new ImageView(new Image("/option_image.png"));
+        ImageView optionIcon = new ImageView(new Image("/ImageResource/option_image.png"));
         optionIcon.setFitHeight(15);
         optionIcon.setFitWidth(20);
 
@@ -78,7 +86,8 @@ public class UserLoginScene {
 
         HBox optionMenuHBox = new HBox();
         optionMenuHBox.getChildren().add(menuBar);
-        optionMenuHBox.setPadding(new Insets(5,5,10,560));
+        optionMenuHBox.setPadding(new Insets(5,0,10,550));
+        //optionMenuHBox.setStyle("-fx-background-color: #fded02");
 
 
         userNameHBox.getChildren().addAll(userNameLabel,inputUsername);
@@ -91,7 +100,10 @@ public class UserLoginScene {
         loginPanelHBox.getChildren().addAll(userNameHBox,passwordHBox,bothButtonHBox);
         imageLoginPanel.getChildren().addAll(imageHMIHBox,loginPanelHBox);
         imageLoginPanel.setPadding(new Insets(10,10,10,10));
-        imageSliderHBox.setPadding(new Insets(10,10,10,10));
+        imageLoginPanel.setStyle("-fx-background-color: #090300");
+        imageSliderHBox.setPadding(new Insets(10,0,10,0));
+        VBox.setMargin(imageSliderHBox,new Insets(30,25,10,25));
+        imageSliderHBox.setStyle("-fx-background-color: #090300");
         root.getChildren().addAll(optionMenuHBox,imageLoginPanel,imageSliderHBox);
 
 

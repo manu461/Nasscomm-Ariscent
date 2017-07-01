@@ -55,7 +55,7 @@ public class ManagerLoginScene {
 //            System.out.println("File not found\n");
 //        }
 
-        ImageView imageView = new ImageView(new Image("/ImageSlider/logo.png"));
+        ImageView imageView = new ImageView(new Image("/ImageResource/logo.png"));
         imageView.setFitHeight(200);
         imageView.setFitWidth(400);
 
@@ -71,9 +71,11 @@ public class ManagerLoginScene {
 
         hBoxForLogo.getChildren().add(imageView);
         hBoxForLogo.setPadding(new Insets(10,10,10,100));
-        hBoxForLogin.setPadding(new Insets(10,10,100,120));
+        hBoxForLogin.setPadding(new Insets(10,10,10,120));
         gridPane.getChildren().addAll(userNameLabel,inputUsername,passwordLabel,inputPassword,loginButton);
         hBoxForLogin.getChildren().add(gridPane);
+        VBox.setMargin(hBoxForLogin,new Insets(0,0,90,0));
+        hBoxForLogin.setStyle("-fx-background-color: #090300");
         HBox hBoxBackButton = new HBox();
         Button backButton = new Button("<");
         backButton.getStyleClass().add("button-round");

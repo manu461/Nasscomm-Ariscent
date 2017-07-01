@@ -106,14 +106,16 @@ public class ImageSlider {
 
 
 
-            imageView.setFitHeight(340);
-            imageView.setFitWidth(500);
+            imageView.setFitHeight(300);
+            imageView.setFitWidth(535);
 
             HBox hBox = new HBox();
-            hBox.setSpacing(2);
+            hBox.setSpacing(0);
             hBox.setAlignment(Pos.CENTER);
             // hBox.getChildren().addAll(lbutton, imageView, rButton);
-            hBox.getChildren().addAll(lbutton,imageView,rButton);
+            //hBox.getChildren().addAll(lbutton,imageView,rButton);//----->uncomment to add buttons.
+            hBox.getChildren().add(imageView);
+            //hBox.setStyle("-fx-background-color: #fded02");
             return hBox;
 
 //            gridPane.add(hBox, 1, 1);

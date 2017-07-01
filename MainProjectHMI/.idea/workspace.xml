@@ -16,8 +16,8 @@
       <file leaf-file-name="MainStage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainStage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="405">
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -26,21 +26,11 @@
       <file leaf-file-name="ManagerLoginScene.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/ManagerLoginScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="107" column="31" lean-forward="false" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+            <state relative-caret-position="162">
+              <caret line="77" column="60" lean-forward="false" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManagingEditScene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scenes/ManagingEditScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -50,18 +40,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
               <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutScene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ScenesPopWindow/AboutScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,30 +74,28 @@
       <file leaf-file-name="UserLoginScene.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scenes/UserLoginScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="68" column="60" lean-forward="true" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
+            <state relative-caret-position="358">
+              <caret line="104" column="51" lean-forward="false" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnUserLogInScene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Scenes/OnUserLogInScene.java">
+      <file leaf-file-name="Nevike.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Themes/Nevike.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-367">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageSlider.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageSlider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImageSlider/ImageSlider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1046">
-              <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="304">
+              <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -150,17 +126,17 @@
         <option value="$PROJECT_DIR$/src/Scenes/OnUserLogInSceneTwo.java" />
         <option value="$PROJECT_DIR$/src/Scenes/OnUserLogInSceneThree.java" />
         <option value="$PROJECT_DIR$/src/Stages/HelpStage.java" />
-        <option value="$PROJECT_DIR$/src/Themes/Nevike.css" />
         <option value="$PROJECT_DIR$/src/Stages/AboutStage.java" />
-        <option value="$PROJECT_DIR$/src/Scenes/ManagerLoginScene.java" />
         <option value="$PROJECT_DIR$/src/ScenesPopWindow/AboutScene.java" />
         <option value="$PROJECT_DIR$/src/ScenesPopWindow/HelpScene.java" />
         <option value="$PROJECT_DIR$/src/ScenesPopWindow/OnUserSignUpScene.java" />
         <option value="$PROJECT_DIR$/src/Stages/PopUpStage.java" />
-        <option value="$PROJECT_DIR$/src/Scenes/UserLoginScene.java" />
         <option value="$PROJECT_DIR$/src/Scenes/OnUserLogInScene.java" />
         <option value="$PROJECT_DIR$/src/MainStage.java" />
+        <option value="$PROJECT_DIR$/src/Scenes/ManagerLoginScene.java" />
         <option value="$PROJECT_DIR$/src/ImageSlider/ImageSlider.java" />
+        <option value="$PROJECT_DIR$/src/Scenes/UserLoginScene.java" />
+        <option value="$PROJECT_DIR$/src/Themes/Nevike.css" />
       </list>
     </option>
   </component>
@@ -234,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Scenes" />
+              <option name="myItemId" value="Themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,7 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ImageSlider" />
+              <option name="myItemId" value="Scenes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,6 +242,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\staLker\Desktop\GitHubLocal\Nasscomm-Ariscent\MainProjectHMI\src\ImageResource" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\staLker\Desktop\GitHubLocal\Nasscomm-Ariscent\MainProjectHMI\src\ImageSlider" />
       <recent name="C:\Users\staLker\Desktop\GitHubLocal\Nasscomm-Ariscent\MainProjectHMI\src" />
@@ -640,15 +619,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498799195625</updated>
-      <workItem from="1498799206292" duration="43183000" />
+      <workItem from="1498799206292" duration="46653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43183000" />
+    <option name="totallyTimeSpent" value="46653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
+    <frame x="-9" y="-9" width="1924" height="1048" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -664,7 +644,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -781,14 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Themes/Nevike.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stages/HelpStage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -813,22 +785,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/ManagerLoginScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="107" column="31" lean-forward="false" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ScenesPopWindow/AboutScene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="25" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -853,30 +815,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stages/PopUpStage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/ImageResource/userImage.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainStage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/ImageResource/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scenes/UserLoginScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="68" column="60" lean-forward="true" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/ImageResource/option_image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Scenes/OnUserLogInScene.java">
@@ -889,10 +840,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stages/PopUpStage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainStage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/ManagerLoginScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="77" column="60" lean-forward="false" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ImageSlider/ImageSlider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1046">
-          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="304">
+          <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Scenes/UserLoginScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="104" column="51" lean-forward="false" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Themes/Nevike.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
           <folding />
         </state>
       </provider>

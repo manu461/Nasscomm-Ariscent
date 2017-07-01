@@ -4,7 +4,7 @@
 }
 .button {
     -fx-text-fill: #ffffff;
-    -fx-background-color: #db2d20;
+    -fx-background-color: #f80367;
 
 }
 .button-blue {
@@ -15,12 +15,12 @@
 .button-round{
     -fx-text-fill: #ffffff;
     -fx-font-weight: bolder;
-    -fx-background-color: #db2d20;
+    -fx-background-color: #f80367;
     -fx-background-radius: 100;
 }
 
 .label{
-    -fx-text-fill: #fded02;
+    -fx-text-fill: #ff851a;
     -fx-font-weight: bolder;
 }
 .combo-box{
@@ -53,7 +53,7 @@
 .tab-pane > .tab-header-area > .headers-region > .tab:selected {
     -fx-background-color: #807d7c;
     -fx-border-width: 0 0 3 0;
-    -fx-border-color: #fded02;
+    -fx-border-color: #01a0e4;
 }
 .tab .tab-label
 {

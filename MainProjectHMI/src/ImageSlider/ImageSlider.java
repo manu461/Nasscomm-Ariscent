@@ -34,15 +34,11 @@ public class ImageSlider {
     public static HBox getLayout() {
         // images in src folder.
         try {
-            list.add("/ImageSlider/1.jpg");
-            list.add("/ImageSlider/2.jpg");
+
             list.add("/ImageSlider/3.jpg");
             list.add("/ImageSlider/4.jpg");
             list.add("/ImageSlider/5.jpg");
-            list.add("/ImageSlider/6.jpg");
-            list.add("/ImageSlider/7.jpg");
-            list.add("/ImageSlider/8.jpg");
-            list.add("/ImageSlider/9.jpg");
+
 
 
 

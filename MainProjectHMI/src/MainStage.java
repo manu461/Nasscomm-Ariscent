@@ -10,7 +10,6 @@ import javafx.stage.Stage;
 
 public class MainStage extends Application {
     Stage window;
-    Scene scene;
     public static void main(String[] args) {
         launch(args);
     }
@@ -19,11 +18,11 @@ public class MainStage extends Application {
     public void start(Stage primaryStage) {
         window = primaryStage;
         UserLoginScene.passControl(window);
-
         //window.setScene(scene);
         window.setResizable(false);
         window.setTitle("Help My Interview!");
         window.setOpacity(0.93);
 
     }
+
 }

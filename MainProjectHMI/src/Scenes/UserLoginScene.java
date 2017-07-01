@@ -1,14 +1,16 @@
 package Scenes;
 
 import ImageSlider.ImageSlider;
+import ScenesPopWindow.AboutScene;
+import ScenesPopWindow.HelpScene;
+import ScenesPopWindow.OnUserSignUpScene;
+import Stages.PopUpStage;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.Background;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -17,12 +19,11 @@ import javafx.stage.Stage;
  * Created by staLker on 30-06-2017.
  */
 public class UserLoginScene {
-    public static Scene getScene(){
+    public static void passControl(Stage window){
 
         HBox imageHMIHBox = new HBox(10);
         HBox userNameHBox = new HBox(10);
         HBox passwordHBox = new HBox(10);
-        //HBox userNamePassword = new HBox(20);
         HBox bothButtonHBox = new HBox(10);
         VBox loginPanelHBox = new VBox(10);
         HBox imageSliderHBox = ImageSlider.getLayout();
@@ -35,29 +36,72 @@ public class UserLoginScene {
         PasswordField inputPassword = new PasswordField();
         Button loginButton = new Button("Login!");
         Button signUpButton = new Button("SignUp!");
+        signUpButton.getStyleClass().add("button-blue");
         inputPassword.setPromptText("Enter your password");
         inputUsername.setPromptText("Enter your username");
         ImageView logoImageView = new ImageView(new Image("/ImageSlider/logo.png"));
-        logoImageView.setFitHeight(80);
-        logoImageView.setFitWidth(160);
+        logoImageView.setFitHeight(120);
+        logoImageView.setFitWidth(215);
+
+        ImageView optionIcon = new ImageView(new Image("/option_image.png"));
+        optionIcon.setFitHeight(15);
+        optionIcon.setFitWidth(20);
+
+        Menu menu = new Menu();
+        menu.setGraphic(optionIcon);
+        MenuItem managerLoginMenuItem = new MenuItem("Manager Login");
+        MenuItem aboutMenuItem = new MenuItem("About");
+        MenuItem helpMenuItem = new MenuItem("Help");
+        MenuItem exitMenuItem = new MenuItem("Exit");
+        menu.getItems().addAll(
+                managerLoginMenuItem,
+                new SeparatorMenuItem(),
+                aboutMenuItem,
+                helpMenuItem,
+                new SeparatorMenuItem(),
+                exitMenuItem
+        );
+
+        managerLoginMenuItem.setOnAction(e -> ManagerLoginScene.passControl(window));
+        aboutMenuItem.setOnAction(e -> {PopUpStage.show("About HMI", AboutScene.getScene());});
+        helpMenuItem.setOnAction(e -> {PopUpStage.show("HMI Forum", HelpScene.getScene());});
+        exitMenuItem.setOnAction(e -> {window.close();});
+        loginButton.setOnAction(e -> {OnUserLogInScene.passControl(window);});
+        signUpButton.setOnAction(e -> {PopUpStage.show("Registration", OnUserSignUpScene.getScene());});
+
+
+
+
+        MenuBar menuBar = new MenuBar();
+        menuBar.setBackground(Background.EMPTY);
+        menuBar.getMenus().add(menu);
+
+        HBox optionMenuHBox = new HBox();
+        optionMenuHBox.getChildren().add(menuBar);
+        optionMenuHBox.setPadding(new Insets(5,5,10,560));
+
 
         userNameHBox.getChildren().addAll(userNameLabel,inputUsername);
         passwordHBox.getChildren().addAll(passwordLabel,inputPassword);
         imageHMIHBox.getChildren().add(logoImageView);
-       // userNamePassword.getChildren().addAll(userNameHBox,passwordHBox);
-        //userNamePassword.setPadding(new Insets(30,10,10,10));
         bothButtonHBox.getChildren().addAll(loginButton,signUpButton);
-        loginPanelHBox.setPadding(new Insets(70,10,10,50));
+        loginPanelHBox.setPadding(new Insets(10,10,10,10));
         bothButtonHBox.setPadding(new Insets(10,10,10,90));
-        imageHMIHBox.setPadding(new Insets(70,0,10,60));
+        imageHMIHBox.setPadding(new Insets(10,0,0,40));
         loginPanelHBox.getChildren().addAll(userNameHBox,passwordHBox,bothButtonHBox);
         imageLoginPanel.getChildren().addAll(imageHMIHBox,loginPanelHBox);
-        root.getChildren().addAll(imageLoginPanel,imageSliderHBox);
+        imageLoginPanel.setPadding(new Insets(10,10,10,10));
+        imageSliderHBox.setPadding(new Insets(10,10,10,10));
+        root.getChildren().addAll(optionMenuHBox,imageLoginPanel,imageSliderHBox);
 
 
 
 
         Scene scene = new Scene(root,600,600);
-        return scene;
+        scene.getStylesheets().add("Themes/Nevike.css");
+        window.setScene(scene);
+        window.show();
     }
+
+
 }

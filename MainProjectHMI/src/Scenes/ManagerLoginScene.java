@@ -11,22 +11,18 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-
 /**
  * Created by staLker on 30-06-2017.
  */
 public class ManagerLoginScene {
 
-    public static Scene getScene() {
+    public static void passControl(Stage window) {
 
-        //setUserAgentStylesheet(STYLESHEET_MODENA);
+
         GridPane gridPane = new GridPane();
         gridPane.setHgap(6);
         gridPane.setVgap(10);
         gridPane.setPadding(new Insets(20,20,20,20));
-
         HBox hBoxForLogo = new HBox(10);
         HBox hBoxForLogin = new HBox(10);
 
@@ -47,6 +43,7 @@ public class ManagerLoginScene {
         inputPassword.setPromptText("Enter your password");
 
         Button loginButton = new Button("Login!");
+        loginButton.setOnAction(e -> {});//---------------------->
 
 //        ComboBox<String> themeChoice = new ComboBox<>();
 //        themeChoice.getItems().addAll(NEVIKE_THEME,RESSBER_THEME);
@@ -74,10 +71,15 @@ public class ManagerLoginScene {
 
         hBoxForLogo.getChildren().add(imageView);
         hBoxForLogo.setPadding(new Insets(10,10,10,100));
-        hBoxForLogin.setPadding(new Insets(10,10,10,120));
+        hBoxForLogin.setPadding(new Insets(10,10,100,120));
         gridPane.getChildren().addAll(userNameLabel,inputUsername,passwordLabel,inputPassword,loginButton);
         hBoxForLogin.getChildren().add(gridPane);
-        vBoxRoot.getChildren().addAll(hBoxForLogo,hBoxForLogin);
+        HBox hBoxBackButton = new HBox();
+        Button backButton = new Button("<");
+        backButton.getStyleClass().add("button-round");
+        hBoxBackButton.getChildren().add(backButton);
+        hBoxBackButton.setPadding(new Insets(20,10,50,10));
+        vBoxRoot.getChildren().addAll(hBoxBackButton,hBoxForLogo,hBoxForLogin);
         vBoxRoot.setAlignment(Pos.CENTER);
         Scene scene = new Scene(vBoxRoot,600,600);
 
@@ -97,7 +99,14 @@ public class ManagerLoginScene {
 //        });
 
 
-        return scene;
+
+        backButton.setOnAction(e -> {UserLoginScene.passControl(window);});
+
+
+
+        scene.getStylesheets().add("Themes/Nevike.css");
+        window.setScene(scene);
+        window.show();
 
     }
 

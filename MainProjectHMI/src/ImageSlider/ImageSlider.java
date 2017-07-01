@@ -46,15 +46,14 @@ public class ImageSlider {
 
 
 
-
-
-
             GridPane gridPane = new GridPane();
 
             gridPane.setAlignment(Pos.CENTER);
 
             lbutton = new Button("<");
             rButton = new Button(">");
+            lbutton.getStyleClass().add("button-round");
+            rButton.getStyleClass().add("button-round");
 
             Image images[] = new Image[list.size()];
             for (int i = 0; i < list.size(); i++) {
@@ -85,18 +84,37 @@ public class ImageSlider {
             });
             lbutton.setOnAction(e -> {
                 j = j - 1;
-                if (j == 0 || j > list.size() + 1 || j == -1) {
+                if ( j > list.size() + 1 || j == -1) {
                     j = list.size() - 1;
                 }
                 imageView.setImage(images[j]);
 
             });
 
+//             new Thread(){
+//                @Override
+//                public void run() {
+//                    while(true){
+//                        try {
+//                            sleep(3000);
+//                        } catch (InterruptedException e) {
+//                            e.printStackTrace();
+//                        }
+//                        if((j + 1) == list.size()){
+//                            j = 0;
+//                        }else j = j + 1;
+//                        imageView.setImage(images[j]);
+//                    }
+//                }
+//            }.start();
+
+
+
             imageView.setFitHeight(340);
             imageView.setFitWidth(500);
 
             HBox hBox = new HBox();
-            hBox.setSpacing(15);
+            hBox.setSpacing(2);
             hBox.setAlignment(Pos.CENTER);
             // hBox.getChildren().addAll(lbutton, imageView, rButton);
             hBox.getChildren().addAll(lbutton,imageView,rButton);

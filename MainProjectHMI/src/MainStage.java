@@ -11,7 +11,6 @@ import javafx.stage.Stage;
 public class MainStage extends Application {
     Stage window;
     Scene scene;
-    Button managerSceneLoginButton;
     public static void main(String[] args) {
         launch(args);
     }
@@ -19,16 +18,12 @@ public class MainStage extends Application {
     @Override
     public void start(Stage primaryStage) {
         window = primaryStage;
-        scene = OnUserLogInScene.getScene();
-//        ManagerLoginScene.getLoginButton().setOnAction(e -> {
-//            System.out.println(
-//                    ManagerLoginScene.getInputUsername().getText() +" "+
-//                    ManagerLoginScene.getInputPassword().getText());
-//        });
-        scene.getStylesheets().add("Themes/Nevike.css");
-        window.setScene(scene);
+        UserLoginScene.passControl(window);
+
+        //window.setScene(scene);
+        window.setResizable(false);
         window.setTitle("Help My Interview!");
         window.setOpacity(0.93);
-        window.show();
+
     }
 }

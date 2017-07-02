@@ -21,7 +21,7 @@ public class MainStage extends Application {
         //window.setScene(scene);
         window.setResizable(false);
         window.setTitle("Help My Interview!");
-        window.setOpacity(0.93);
+        //window.setOpacity(0.93);
 
     }
 

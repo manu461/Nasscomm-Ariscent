@@ -11,7 +11,7 @@ import javafx.scene.layout.HBox;
 public class HelpScene {
     public static Scene getScene(){
 
-        HBox hBox = new HBox();
+        HBox hBox = new HBox();//----->harshit bhadwa
         Label label = new Label("Help coming soon...");
         hBox.getChildren().add(label);
         hBox.setAlignment(Pos.CENTER);

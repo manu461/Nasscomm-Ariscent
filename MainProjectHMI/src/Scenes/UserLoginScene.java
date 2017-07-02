@@ -72,6 +72,8 @@ public class UserLoginScene {
                 exitMenuItem
         );
 
+        //----------------------------------->
+
         managerLoginMenuItem.setOnAction(e -> ManagerLoginScene.passControl(window));
         aboutMenuItem.setOnAction(e -> {PopUpStage.show("About HMI", AboutScene.getScene());});
         helpMenuItem.setOnAction(e -> {PopUpStage.show("HMI Forum", HelpScene.getScene());});

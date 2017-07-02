@@ -70,12 +70,7 @@ public class UserLoginScene {
                 exitMenuItem
         );
 
-        //----------------------------------->
-        //--------------HELLO--------------->
-        //123456789
-        //harshit chutiya
-        //tttt
-        //hgchg/jvuyv
+
 
         managerLoginMenuItem.setOnAction(e -> ManagerLoginScene.passControl(window));
         aboutMenuItem.setOnAction(e -> {PopUpStage.show("About HMI", AboutScene.getScene());});

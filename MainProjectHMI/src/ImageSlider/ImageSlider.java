@@ -110,11 +110,11 @@ public class ImageSlider {
             imageView.setFitWidth(535);
 
             HBox hBox = new HBox();
-            hBox.setSpacing(4);
+            hBox.setSpacing(0);
             hBox.setAlignment(Pos.CENTER);
             // hBox.getChildren().addAll(lbutton, imageView, rButton);
-            hBox.getChildren().addAll(lbutton,imageView,rButton);//----->uncomment to add buttons.
-            //hBox.getChildren().add(imageView);
+            //hBox.getChildren().addAll(lbutton,imageView,rButton);//----->uncomment to add buttons.
+            hBox.getChildren().add(imageView);
             //hBox.setStyle("-fx-background-color: #fded02");
             return hBox;
 

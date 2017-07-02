@@ -28,7 +28,7 @@
     -fx-text-fill: #32302F;
 }
 .tab{
-    -fx-background-color: #01a0e4 ;
+    -fx-background-color: #32302F ;
     -fx-text-fill: #ffffff;
     -fx-padding: 5,0,0,0;
 
@@ -68,10 +68,5 @@
 
     -fx-background-color: transparent;
 }
-.tab-pane {
-    -fx-min-height: 581;
-    -fx-min-width: 600;
-}
-
 
 

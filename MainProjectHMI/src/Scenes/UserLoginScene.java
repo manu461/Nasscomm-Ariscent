@@ -73,6 +73,7 @@ public class UserLoginScene {
         );
 
         //----------------------------------->
+        //--------------HELLO--------------->
 
         managerLoginMenuItem.setOnAction(e -> ManagerLoginScene.passControl(window));
         aboutMenuItem.setOnAction(e -> {PopUpStage.show("About HMI", AboutScene.getScene());});

@@ -1,7 +1,8 @@
 package ScenesPopWindow;
 
 import Utils.HyperText;
-import javafx.geometry.Pos;
+import javafx.geometry.*;
+import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -11,6 +12,9 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.*;
+
+import java.awt.*;
 
 public class HelpScene {
     public static Scene getScene(){
@@ -25,6 +29,7 @@ public class HelpScene {
         HBox twitterPane = new HBox(5);
         VBox links = new VBox(5);
         links.setAlignment(Pos.CENTER_LEFT);
+        hBox.setPadding(new Insets(10,0,10,0));
 
         Label lMail_id = new Label("e-mail :");
         Label lDescription = new Label("Description :");
@@ -63,6 +68,7 @@ public class HelpScene {
 
         labels.getChildren().addAll(lMail_id,lDescription);
         textFields.getChildren().addAll(tMail_id,tDescription);
+        hBox.setStyle("-fx-background-color: #090300");
         hBox.setAlignment(Pos.CENTER);
         hBox.getChildren().addAll(labels,textFields);
         vBox.setAlignment(Pos.CENTER);

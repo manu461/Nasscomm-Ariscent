@@ -12,7 +12,7 @@ public class HelpScene {
     public static Scene getScene(){
 
         HBox hBox = new HBox();//----->harshit bhadwa
-        Label label = new Label("Help coming soon...");
+        Label label = new Label("Help coming soon...");//vineet madharchod
         hBox.getChildren().add(label);
         hBox.setAlignment(Pos.CENTER);
 

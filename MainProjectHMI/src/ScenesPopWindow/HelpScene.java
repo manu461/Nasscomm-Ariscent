@@ -5,12 +5,14 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 
-
+/**
+ * Created by staLker on 01-07-2017.
+ */
 public class HelpScene {
     public static Scene getScene(){
 
         HBox hBox = new HBox();
-        Label label = new Label("Help coming soon...");
+        Label label = new Label("Help coming sooner...");
         hBox.getChildren().add(label);
         hBox.setAlignment(Pos.CENTER);
 

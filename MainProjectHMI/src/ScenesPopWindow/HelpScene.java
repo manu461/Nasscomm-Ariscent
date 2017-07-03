@@ -46,9 +46,9 @@ public class HelpScene {
         Hyperlink gitHubForum = new Hyperlink("https://github.com/HMI-CommunityForum");
         Hyperlink websiteForum = new Hyperlink("https://help-MI.in/forum");
         Button submitQueryButton = new Button("Submit");
-        gitHubDocumentationLink.setOnAction(e -> HyperText.openWebpage("https://github.com/manu461/Nasscomm-Ariscent/tree/master/MainProjectHMI"));
-        gitHubForum.setOnAction(e -> HyperText.openWebpage("https://github.com/"));
-        websiteForum.setOnAction(e -> HyperText.openWebpage("https://twitter.com/"));
+        gitHubDocumentationLink.setOnAction(e -> HyperText.openWebPage("https://github.com/manu461/Nasscomm-Ariscent/tree/master/MainProjectHMI"));
+        gitHubForum.setOnAction(e -> HyperText.openWebPage("https://github.com/"));
+        websiteForum.setOnAction(e -> HyperText.openWebPage("https://twitter.com/"));
         submitQueryButton.setOnAction(e -> {});
 
         ImageView forumLogoImageView = new ImageView(new Image("/ImageResource/github_logo.png"));

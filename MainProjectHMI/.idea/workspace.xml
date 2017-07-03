@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f61d23ad-09ee-4883-b2f6-3a7aec9c6cce" name="Default" comment="help scene added">
+    <list default="true" id="f61d23ad-09ee-4883-b2f6-3a7aec9c6cce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ScenesPopWindow/OnUserSignUpScene.java" afterPath="$PROJECT_DIR$/src/ScenesPopWindow/OnUserSignUpScene.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,8 +82,8 @@
       <file leaf-file-name="OnUserSignUpScene.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ScenesPopWindow/OnUserSignUpScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+            <state relative-caret-position="303">
+              <caret line="53" column="63" lean-forward="false" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -873,11 +874,25 @@
       <option name="project" value="LOCAL" />
       <updated>1499072015080</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="OnUserSignUpScene on progress">
+      <created>1499072178285</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1499072178285</updated>
+    </task>
+    <task id="LOCAL-00008" summary="OnUserSignUpScene on progress">
+      <created>1499072782168</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1499072782168</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69073000" />
+    <option name="totallyTimeSpent" value="69986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1407,8 +1422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ScenesPopWindow/OnUserSignUpScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state relative-caret-position="303">
+          <caret line="53" column="63" lean-forward="false" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

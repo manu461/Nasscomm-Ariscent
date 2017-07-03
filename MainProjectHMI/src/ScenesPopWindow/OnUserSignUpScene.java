@@ -51,7 +51,7 @@ public class OnUserSignUpScene {
         RadioButton maleRadioButton = new RadioButton("Male");
         maleRadioButton.setToggleGroup(genderToggleGroup);
         RadioButton femaleRadioButton = new RadioButton("Female");
-        femaleRadioButton.setToggleGroup(genderToggleGroup);
+        femaleRadioButton.setToggleGroup(genderToggleGroup);///
         HBox genderRadioButtonHBox = new HBox();
         genderRadioButtonHBox.getChildren().addAll(maleRadioButton,femaleRadioButton);
         usernameTextField.setPromptText("enter a username");

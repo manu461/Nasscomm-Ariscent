@@ -4,15 +4,11 @@
 
 import Scenes.*;
 import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 public class MainStage extends Application {
     Stage window;
-    public static void main(String[] args) {
-        launch(args);
-    }
+    public static void main(String[] args) {launch(args);}
 
     @Override
     public void start(Stage primaryStage) {
@@ -24,5 +20,4 @@ public class MainStage extends Application {
         //window.setOpacity(0.93);
 
     }
-
 }

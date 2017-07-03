@@ -28,8 +28,9 @@ public class HelpScene {
         HBox instaPane = new HBox(5);
         HBox twitterPane = new HBox(5);
         VBox links = new VBox(5);
-        links.setAlignment(Pos.CENTER_LEFT);
-        hBox.setPadding(new Insets(10,0,10,0));
+        links.setAlignment(Pos.BOTTOM_LEFT);
+        links.setPadding(new Insets(0,10,0,10));
+        hBox.setPadding(new Insets(10,10,10,10));
 
         Label lMail_id = new Label("e-mail :");
         Label lDescription = new Label("Description :");
@@ -60,9 +61,9 @@ public class HelpScene {
         twitterIcon.setFitWidth(13);
         twitterIcon.setFitHeight(13);
 
-        facebookPane.getChildren().addAll(facebookIcon, facebookLink);facebookPane.setAlignment(Pos.CENTER);
-        instaPane.getChildren().addAll(instagramIcon, instagramLink);instaPane.setAlignment(Pos.CENTER);
-        twitterPane.getChildren().addAll(twitterIcon, twitterLink);twitterPane.setAlignment(Pos.CENTER);
+        facebookPane.getChildren().addAll(facebookIcon, facebookLink);facebookPane.setAlignment(Pos.CENTER_LEFT);
+        instaPane.getChildren().addAll(instagramIcon, instagramLink);instaPane.setAlignment(Pos.CENTER_LEFT);
+        twitterPane.getChildren().addAll(twitterIcon, twitterLink);twitterPane.setAlignment(Pos.CENTER_LEFT);
 
         links.getChildren().addAll(facebookPane,instaPane,twitterPane);
 
@@ -74,6 +75,6 @@ public class HelpScene {
         vBox.setAlignment(Pos.CENTER);
         vBox.getChildren().addAll(links,hBox,submitquery);
 
-        return new Scene(vBox,400,400);
+        return new Scene(vBox,400,350);
     }
 }

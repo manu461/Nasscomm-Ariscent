@@ -5,6 +5,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
+import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 
@@ -46,8 +47,11 @@ public class OnUserSignUpScene {
         TextField contactTextField = new TextField();
         contactTextField.setPromptText("enter 10-digit contact");
         TextField usernameTextField = new TextField();
+        ToggleGroup genderToggleGroup = new ToggleGroup();
         RadioButton maleRadioButton = new RadioButton("Male");
+        maleRadioButton.setToggleGroup(genderToggleGroup);
         RadioButton femaleRadioButton = new RadioButton("Female");
+        femaleRadioButton.setToggleGroup(genderToggleGroup);
         HBox genderRadioButtonHBox = new HBox();
         genderRadioButtonHBox.getChildren().addAll(maleRadioButton,femaleRadioButton);
         usernameTextField.setPromptText("enter a username");

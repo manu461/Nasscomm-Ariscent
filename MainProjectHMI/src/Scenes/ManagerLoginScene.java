@@ -43,7 +43,9 @@ public class ManagerLoginScene {
         inputPassword.setPromptText("Enter your password");
 
         Button loginButton = new Button("Login!");
-        loginButton.setOnAction(e -> {});//---------------------->
+        loginButton.setOnAction(e -> {
+            ManagingListScene.passControl(window);
+        });
 
 //        ComboBox<String> themeChoice = new ComboBox<>();
 //        themeChoice.getItems().addAll(NEVIKE_THEME,RESSBER_THEME);
